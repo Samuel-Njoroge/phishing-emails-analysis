@@ -5,7 +5,7 @@ Phishing is the practice of sending fraudulent communications that appear to com
 
 This project involves an analysis on emails classified as 'phishing'.
 
-Data source : https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset/data?select=Nigerian_Fraud.csv
+Data source : https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
 
 **Reference**
 
