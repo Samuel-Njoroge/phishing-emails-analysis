@@ -13,4 +13,4 @@ Data source : https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-d
 
 
 ## Project Architecture.
-![project_architecture](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/025031c1-1b69-44d2-b730-be70bb3718c6)
+![phishing_emails](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/1b7f4044-cdf6-4764-b1b4-a44f3f6e7bab)
