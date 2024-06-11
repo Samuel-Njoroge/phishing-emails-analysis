@@ -7,12 +7,25 @@ This project involves an analysis on emails classified as 'phishing'.
 
 Data source : https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset
 
-**Reference**
+**Data Source Reference**
 
 *Al-Subaiey, A., Al-Thani, M., Alam, N. A., Antora, K. F., Khandakar, A., & Zaman, S. A. U. (2024, May 19). Novel Interpretable and Robust Web-based AI Platform for Phishing Email Detection. ArXiv.org. https://arxiv.org/abs/2405.11619*
 
 ## Project Architecture.
 ![phishing_emails](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/1b7f4044-cdf6-4764-b1b4-a44f3f6e7bab)
+
+## Skills & Tools
+- Python - Applied in the whole Data Cleaning process.
+- SQL - Applied in the Data Exploration phase.
+- Jupyter Notebooks - Used as the Data Cleaning environment.
+- PostgreSQL - Used as the Database Management System to handle the data.
+  
+## Objectives 
+- To find out the most frequent emails associated with phishing.
+- Identify the frequent targets/prone individuals to phishing.
+- Identify the trend of phishing emails over time.
+- To find out the most frequent target time and day.
+- To identify the sender-receiver pattern in phishing.
 
 ### 1. What is the total observations in the phishing emails dataset?.
 
@@ -163,3 +176,9 @@ ORDER BY
 	total DESC 
 LIMIT 10;
 ```
+
+## Recommendations
+-
+-
+-
+-
