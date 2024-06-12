@@ -29,6 +29,8 @@ Data source : https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-d
 
 ### 1. What is the total observations in the phishing emails dataset?.
 
+#### Query
+
 ```sh
 SELECT 
 	COUNT(*) AS total_observations 
@@ -36,11 +38,13 @@ FROM
 	public.fraud_data;
 ```
 
-### Results
+#### Results
 
 ![1](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/a57a5ab4-e9d0-4316-97db-4d1db4e48b6c)
 
 ### 2. Which emails are most frequently associated with phishing?
+
+#### Query
 
 ```sh
 SELECT 
@@ -54,11 +58,13 @@ ORDER BY
 	total_sent DESC;
 ```
 
-### Results
+#### Results
 
 ![2](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/dd2bb444-f1e9-4ac9-b085-951d48aef566)
 
 ### 3. Who are the most frequently associated with phishing emails?
+
+#### Query
 
 ```sh
 SELECT 
@@ -72,11 +78,13 @@ ORDER BY
 	total DESC;
 ```
 
-### Results
+#### Results
 
 ![3](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/cf0142b1-c1cf-48e9-9b6c-d3272f7f2f34)
 
 ### 4. Who are the most frequently targeted by phishing emails?
+
+#### Query
 
 ```sh
 SELECT 
@@ -94,11 +102,13 @@ LIMIT 10;
 
 ```
 
-### Results
+#### Results
 
 ![4](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/9db0d4e0-aa4f-4efa-bf56-16de450dcdaf)
 
 ### 5. What is the trend of phishing emails over time?
+
+#### Query
 
 ```sh
 SELECT 
@@ -113,11 +123,13 @@ ORDER BY
 LIMIT 10;
 ```
 
-### Results
+#### Results
 
 ![5](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/6a8cffa5-e4b1-44ff-833a-391d2180f7bc)
 
 ### 6. Are there specific days or times when phishing emails are more likely to be sent?
+
+#### Query
 
 ```sh
 SELECT
@@ -131,11 +143,13 @@ ORDER BY
 	total_sent DESC;
 ```
 
-### Results
+#### Results
 
 ![6](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/b0f4a04d-c849-4549-a707-ab8bcee34c77)
 
 ### 7. What are the most frequently used words as the subject in phishing emails?
+
+#### Query
 
 ```sh
 SELECT 
@@ -149,11 +163,13 @@ WHERE
 	subject LIKE '%action%';
 ```
 
-### Results
+#### Results
 
 ![7](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/1611c860-792b-4d77-abce-c49e65cd508c)
 
 ### 8. What are the sender-receiver pairs that occur most frequently?
+
+#### Query
 
 ```sh
 SELECT 
@@ -170,11 +186,13 @@ ORDER BY
 LIMIT 10;
 ```
 
-### Results
+#### Results
 
 ![8](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/672e584f-fbd0-46d5-ad0f-c5b5562a56e4)
 
 ### 9. What is the most prone target time of the day?
+
+#### Query
 
 ```sh
 SELECT 
@@ -193,11 +211,13 @@ ORDER BY
 	total DESC;
 ```
 
-### Results
+#### Results
 
 ![9](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/1b55d9a7-1c0a-444a-95a8-79ce80e33bf1)
 
 ### 10. What is the most frequent target time and day? 
+
+#### Query
 
 ```sh
 SELECT 
@@ -214,12 +234,18 @@ ORDER BY
 LIMIT 10;
 ```
 
-### Results
+#### Results
 
 ![10](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/9328410d-e102-422e-a29d-baa529ef3805)
 
 
 ## Conclusions
+-
+-
+-
+-
+-
+
 ## Recommendations
 -
 -
