@@ -7,7 +7,7 @@ FROM
 	public.fraud_data
 GROUP BY
 	hour_of_day,
-	date
+	day_of_week
 ORDER BY 
 	total DESC 
 LIMIT 10;

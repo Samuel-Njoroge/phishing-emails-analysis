@@ -12,4 +12,5 @@ FROM
 GROUP BY
 	hour_of_day
 ORDER BY
-	total DESC
+	total desc
+limit 10

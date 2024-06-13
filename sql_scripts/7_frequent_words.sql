@@ -8,3 +8,4 @@ WHERE
 	subject LIKE '%Money%' OR
 	subject LIKE '%Urgent%' OR
 	subject LIKE '%action%' 
+limit 10;

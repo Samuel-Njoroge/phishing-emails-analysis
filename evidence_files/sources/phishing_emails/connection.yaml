@@ -1,0 +1,5 @@
+# This file was automatically generated
+name: phishing_emails
+type: postgres
+options:
+  filename: phishing_emails.duckdb
