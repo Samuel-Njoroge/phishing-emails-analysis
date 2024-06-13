@@ -22,7 +22,7 @@ Data source : https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-d
   
 ## Objectives 
 - To find out the most frequent emails associated with phishing.
-- Identify the frequent targets/prone individuals to phishing.
+- Identify the frequent phishing targets.
 - Identify the trend of phishing emails over time.
 - To find out the most frequent target time and day.
 - To identify the sender-receiver pattern in phishing.
@@ -127,7 +127,7 @@ LIMIT 10;
 
 ![5](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/6a8cffa5-e4b1-44ff-833a-391d2180f7bc)
 
-### 6. Are there specific days or times when phishing emails are more likely to be sent?
+### 6. Are there specific days when phishing emails are more likely to be sent?
 
 #### Query
 
