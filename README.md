@@ -228,7 +228,7 @@ FROM
 	public.fraud_data
 GROUP BY
 	hour_of_day,
-	date
+	day_of_week
 ORDER BY 
 	total DESC 
 LIMIT 10;
@@ -236,8 +236,7 @@ LIMIT 10;
 
 #### Results
 
-![10](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/9328410d-e102-422e-a29d-baa529ef3805)
-
+![10](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/df063de5-122a-4867-8916-3f05f10bc600)
 
 ## Conclusions
 -
