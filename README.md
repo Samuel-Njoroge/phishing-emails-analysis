@@ -239,14 +239,15 @@ LIMIT 10;
 ![10](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/df063de5-122a-4867-8916-3f05f10bc600)
 
 ## Conclusions
--
--
--
--
--
+- You're more likely to receive a phishing email on `Tuesday` than any other day.
+- An email from `USAA` is likely to be used in phishing.
+- `Urgent, Make Money, Important` are likely to be used in phishing emails.
+- Phishing emails are likely to be sent between `12 PM` and `1 PM`. 
+- Phishing emails are likely contain lure words such as `offers`. Example : `greatoffers@sendgreatoffers.com`
 
 ## Recommendations
--
--
--
--
+- Verify all emails before clicking any link.
+- Implement mandatory and regular phishing awareness training for all employees.
+- Develop and regularly update incident response plans specifically tailored for phishing attacks.
+- Enforce the use of multi-factor authentication (MFA) across all corporate email accounts and critical systems.
+- Enhance email filtering systems by using machine learning algorithms that can detect and flag phishing attempts more accurately.
