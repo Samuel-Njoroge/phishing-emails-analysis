@@ -15,10 +15,10 @@ Data source : https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-d
 ![phishing_emails](https://github.com/Samuel-Njoroge/phishing-emails-analysis/assets/108589210/1b7f4044-cdf6-4764-b1b4-a44f3f6e7bab)
 
 ## Skills & Tools
-- Python - Applied in the whole Data Cleaning process.
-- SQL - Applied in the Data Exploration phase.
-- Jupyter Notebooks - Used as the Data Cleaning environment.
-- PostgreSQL - Used as the Database Management System to handle the data.
+- `Python` - Applied in the whole Data Cleaning process.
+- `SQL` - Applied in the Data Exploration phase.
+- `Jupyter Notebooks` - Used as the Data Cleaning environment.
+- `PostgreSQL` - Used as the Database Management System to handle the data.
   
 ## Objectives 
 - To find out the most frequent emails associated with phishing.
