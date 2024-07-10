@@ -243,7 +243,7 @@ LIMIT 10;
 - An email from `USAA` is likely to be used in phishing.
 - `Urgent, Make Money, Important` are likely to be used in phishing emails.
 - Phishing emails are likely to be sent between `12 PM` and `1 PM`. 
-- Phishing emails are likely contain lure words such as `offers`. Example : `greatoffers@sendgreatoffers.com`
+- Phishing emails are likely to contain lure words such as `offers`. Example : `greatoffers@sendgreatoffers.com`
 
 ## Recommendations
 - Verify all emails before clicking any link.
